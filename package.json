@@ -1,0 +1,26 @@
+{
+  "name": "karma-axe",
+  "version": "1.0.0",
+  "description": "A Karma plugin. Adapter for axe accessibility testing engine",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhangliangyi/karma-axe.git"
+  },
+  "keywords": [
+    "karma",
+    "karma-plugin",
+    "axe"
+  ],
+  "author": "Jacob Zhang <zhang.liangyi@outlook.com>",
+  "engines": {
+    "node": ">= 6"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axe-core": "^3.2.2"
+  }
+}
